@@ -15,7 +15,7 @@ const Safety = () => {
   const additionalContent = (
     <>
       <Container>
-        <p>
+        <p  className="justify-content">
           Safety is our first Core Value and a way of life. Thermal Systems
           Building Maintenance prides itself in being a leader in the Health
           Safety and Environment field. Thermal Systems has in many instances

@@ -6,7 +6,7 @@ const TrustThermalSystems = () => {
   return (
     <>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/IMG_0023_cropped.jpg"
+        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
         heading="FLAT ROOF REPAIR CALGARY"
       />
       <Container sx={{ padding: "30px", marginBottom: "30px" }}>
@@ -23,7 +23,7 @@ const TrustThermalSystems = () => {
               </div>
               <Container>
                 <div>
-                  <p>
+                  <p className="justify-content">
                     For over 30 years Thermal Systems have been known as a
                     leader in the building envelope industry, including
                     maintenance, repair, and cladding services. Lately though,
@@ -34,7 +34,7 @@ const TrustThermalSystems = () => {
                 <h2 className="h2-heading">
                   We Repair Residential and Commercial Flat Roofs
                 </h2>
-                <p>
+                <p className="justify-content">
                   If you have a flat roof in need of repairs, contact the
                   professionals at Thermal Systems. Whether your building is an
                   apartment, home, school, factory or warehouse, we can quickly
@@ -43,7 +43,7 @@ const TrustThermalSystems = () => {
                   done, your repair options, and of course provide an estimate
                   that fits your budget.
                 </p>
-                <p>
+                <p className="justify-content">
                   Thermal Systems also offers{" "}
                   <a href="/services/24-hour-emergency-service">
                     24-hour emergency flat roof repair services throughout
@@ -60,7 +60,7 @@ const TrustThermalSystems = () => {
                     <h2 className="h2-heading">
                       Repairs for All Types of Flat Roofs
                     </h2>
-                    <p style={{ marginTop: "0px" }}>
+                    <p style={{ marginTop: "0px" }}  className="justify-content">
                       As flat roof repair professionals, the team at Thermal
                       Systems can repair virtually any type of flat roof,
                       regardless of what it is built from. The type of flat
@@ -123,7 +123,7 @@ const TrustThermalSystems = () => {
                   Thermal Systems Knows Flat Roofs, Call Us When You Have a
                   Leak!
                 </h2>
-                <p>
+                <p className="justify-content">
                   So, call Thermal Systems if you detect a leak in your flat
                   roof. We know our stuff and are the experts who can minimize
                   any water damage and give you peace of mind. Our goal is to
@@ -134,7 +134,7 @@ const TrustThermalSystems = () => {
                   Water-tight Roof Repairs in Calgary That Helps You Sleep at
                   Night
                 </h2>
-                <p>
+                <p className="justify-content">
                   We highly doubt you will fall asleep at night when you think
                   of us, but if a dripping roof keeps you up at night, we hope
                   you think of Thermal Systems. We also hope you think of us

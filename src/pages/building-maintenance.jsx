@@ -8,7 +8,7 @@ const BuildingMaintenance = () => {
     <>
       <Container>
         <h4>Visual Inspection Services:</h4>
-        <p>
+        <p className="justify-content">
           Good exterior building maintenance begins with an overall visual
           inspection. Once we have conducted a visual inspection of your
           building we will provide you with a detailed report of our findings
@@ -17,7 +17,7 @@ const BuildingMaintenance = () => {
 
         <h4>Engineering/Consultant Inspection Services:</h4>
 
-        <p>
+        <p className="justify-content">
           We work together with engineers/consultants to provide equipment and
           people to open areas of the buildings exterior to gain access to areas
           of concern therefor collecting the necessary information required to
@@ -26,34 +26,34 @@ const BuildingMaintenance = () => {
         </p>
 
         <h4>Maintenance & Repairs Services:</h4>
-        <div>
-          <ul>
+        <div >
+          <ul >
             <li>Emergency Cladding and Panel Repair, Replace or Removal</li>
           </ul>
-          <ul>
+          <ul >
             <li>
               Architectural Panel & Metal Cladding Repair and Replacement – All
               Size Projects
             </li>
           </ul>
-          <ul>
+          <ul >
             <li>Architectural Panel and Cladding Cleaning</li>
           </ul>
-          <ul>
+          <ul >
             <li>
               Insulation Repair or Replacement – Mold, R Value Concerns, Thermal
               Bridging
             </li>
           </ul>
-          <ul>
+          <ul >
             <li>
               Air/Vapor Membrane – Seam Lap Deficiencies & Penetration Issues
             </li>
           </ul>
-          <ul>
+          <ul >
             <li>Wall System Cleaning – Pressure Wash</li>
           </ul>
-          <ul>
+          <ul >
             <li>Caulking and Sealing</li>
           </ul>
         </div>

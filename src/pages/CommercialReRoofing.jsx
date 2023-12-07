@@ -11,7 +11,7 @@ const CommercialReRoofing = () => {
       <Box className="main">
         <Container>
           <div className="textfieldgrid">
-            <p>
+            <p  className="justify-content">
               Thermal Systems is a leading roof replacement contractor. We
               understand the responsibility of operating as a prime contractor,
               which is very often the case when executing re-roof projects on
@@ -20,7 +20,7 @@ const CommercialReRoofing = () => {
           </div>
 
           <div>
-            <p>
+            <p  className="justify-content">
               Thermal Systems offers full-service re-roofing; installing almost
               all roof types including:
             </p>

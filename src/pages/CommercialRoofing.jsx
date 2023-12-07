@@ -8,14 +8,14 @@ const CommercialRoofing = () => {
     <>
       <Box className="main">
         <Container>
-          <p>
+          <p  className="justify-content">
             Safety is our first Core Value and a way of life. Thermal Systems
             Building Maintenance prides itself in being a leader in the Health
             Safety and Environment field. Thermal
           </p>
 
-          <h5>Visual Inspections:</h5>
-          <p>
+          <h2>Visual Inspections:</h2>
+          <p  className="justify-content">
             Good commercial roof maintenance begins with annual roof inspection
             which provides you with the overall condition of the roof, as well
             as pointing out any areas of concern. Upon completion of the visual
@@ -23,17 +23,17 @@ const CommercialRoofing = () => {
             repair recommendations.
           </p>
 
-          <p>Contact us today to begin your roof maintenance program.</p>
+          <p  className="justify-content">Contact us today to begin your roof maintenance program.</p>
 
           <div>
-            <p>
+            <p  className="justify-content">
               As a member of the Alberta Roofing Contractors Association you can
               rest assured that all roof repairs are conducted by qualified
               personal to the highest standard.
             </p>
           </div>
           <div>
-            <h5>Maintenance & Repairs:</h5>
+            <h2>Maintenance & Repairs:</h2>
             <ul>
               <li>Pressure washing</li>
             </ul>
@@ -55,11 +55,11 @@ const CommercialRoofing = () => {
           </div>
 
           <div>
-            <p>Contact us today to begin your roof maintenance program.</p>
+            <p  className="justify-content">Contact us today to begin your roof maintenance program.</p>
           </div>
 
           <div>
-            <p>
+            <p  className="justify-content">
               As a member of the Alberta Roofing Contractors Association you can
               rest assured that all roof repairs are conducted by qualified
               personal to the highest standard.

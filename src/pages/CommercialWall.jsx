@@ -8,13 +8,13 @@ const CommercialWall = () => {
     <>
       <Box className="main">
         <Container>
-          <p>
+          <p  className="justify-content">
             Thermal Systems has long had a tremendous reputation for building
             some of the most inspired visions within the Building Envelope
             industry.
           </p>
 
-          <p>
+          <p  className="justify-content">
             With over 30 years of Building Envelope Construction experience,
             Thermal Systems is a true leader in the industry and is capable of
             large and small wall system projects. Our capabilities include:
@@ -63,7 +63,7 @@ const CommercialWall = () => {
             </li>
           </ul>
 
-          <p>
+          <p  className="justify-content">
             Thermal Systems will install and warranty all wall system products
             that meet our Core Value of Quality.
           </p>

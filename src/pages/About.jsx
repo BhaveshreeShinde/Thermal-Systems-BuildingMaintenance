@@ -7,7 +7,7 @@ import ContainerCom from "../components/layouts/Container";
 const About = () => {
   const additionalContent = (
     <>
-      <Container>
+      <Container className="justify-content">
         <p>
           At Thermal Systems we are seeking to revolutionize the Building
           Maintenance Industry through Inspired people pushing the use of the

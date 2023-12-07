@@ -23,7 +23,7 @@ const CommercialCladdingRepairCalgary = () => {
                 <div class="decoration-inside"></div>
               </div>
               <Container>
-                <p>
+                <p  className="justify-content">
                   It’s not the Death Star but it IS your home office, so it
                   needs to look great.After all, your cladding makes the first
                   impression your potential clients see, so it is important that
@@ -41,7 +41,7 @@ const CommercialCladdingRepairCalgary = () => {
                       Cladding Puts Your Best Foot Forward for In-person and
                       Online Clients
                     </h2>
-                    <p style={{ marginTop: "0px" }}>
+                    <p style={{ marginTop: "0px" }}  className="justify-content">
                       Your façade is the face of your company, and you only get
                       one chance to make a first impression. Once upon a time
                       that only meant physical visits to your office. Nowadays
@@ -59,7 +59,7 @@ const CommercialCladdingRepairCalgary = () => {
                   Your Cladding Is Not Unlike Your Roof – Protect Your
                   Investments
                 </h2>
-                <p>
+                <p  className="justify-content">
                   When you take care of your cladding, you protect your building
                   and everything inside it. Calgary has rough weather sometimes,
                   and as they say, an ounce of prevention is worth a pound of
@@ -71,7 +71,7 @@ const CommercialCladdingRepairCalgary = () => {
                 <h2 className="h2-heading">
                   Thermal Systems Repairs All Types of Commercial Cladding
                 </h2>
-                <p>
+                <p  className="justify-content">
                   The team of professionals at Thermal Systems has decades of
                   experience performing commercial cladding repair. We
                   constantly keep abreast of new methods of cladding restoration
@@ -79,7 +79,7 @@ const CommercialCladdingRepairCalgary = () => {
                   repair damage caused by the sun, vandalism, or general wear
                   and tear, and restore all types of cladding materials.
                 </p>
-                <p>
+                <p  className="justify-content">
                   Working closely with our system partner, <a href="https://www.rheinzink.com/products/">RHEINZINK®</a> the
                   world's leading manufacturer of titanium and zinc products,
                   and repair all types of <a href="/services/commercial-roofing-maintenance-repairs">architectural metals</a>, including:
@@ -112,7 +112,7 @@ const CommercialCladdingRepairCalgary = () => {
                   Your Commercial Cladding Repairs Begin with a Visual
                   Inspection
                 </h2>
-                <p>
+                <p  className="justify-content">
                   Once you choose Thermal Systems for your cladding repairs, we
                   will conduct a thorough visual inspection of your
                   cladding.Once that is completed, we will provide a detailed
@@ -154,10 +154,10 @@ const CommercialCladdingRepairCalgary = () => {
                 <h2 className="h2-heading">
                 Your Cladding Works Hard: We Work Harder to Keep It in Tip-top Shape
                 </h2>
-                <p>
+                <p  className="justify-content">
                 While building cladding is in many ways the face of your company, it is also an important player when it comes to protecting your building and everything inside it. At Thermal Systems we can quickly diagnose and repair and provide permanent solutions to any damage or deficiencies your cladding may have.
                 </p>
-                <p>
+                <p  className="justify-content">
                 We work with commercial clients throughout Calgary and also offer cladding cleaning and preventative maintenance.
                 </p>
               </Container>

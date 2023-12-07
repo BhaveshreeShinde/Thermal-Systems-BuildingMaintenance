@@ -11,7 +11,7 @@ const EmergencyService = () => {
     <>
       <Box className="main">
         <Container>
-          <p>
+           <p  className="justify-content">
             Thermal Systems offers 24 Hour Emergency Services to respond to Roof
             Leaks, Architectural Panel, Exterior Cladding and Flashing issues.
             Thermal Systems use its tremendous all round Building Envelope
@@ -24,14 +24,14 @@ const EmergencyService = () => {
             the acquisition of Skyline Building Envelope Solutions (CGY) Inc in
             2015.
           </p>
-          <p>
+           <p  className="justify-content">
             Thermal Systems maintains a long history of building service
             information that our clients regularly benefit from when deciding on
             the best course of action for their roof or wall system maintenance.
             Ask us about our General Service Agreements which can give you
             tremendous benefits in times of an emergency.
           </p>
-          <p>
+           <p  className="justify-content">
             Thermal Systems is a member of the Alberta Roofing Contractors
             Association.
           </p>

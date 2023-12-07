@@ -24,7 +24,7 @@ const FlatRoofRepairAirdrie = () => {
               </div>
               <Container>
                 <div>
-                  <p>
+                  <p className="justify-content">
                     Thermal Systems has been around for over 30 years and we
                     understand Airdrie. We know that Airdie has been around
                     since 1899, or so, and we see eye-to-eye. We also know that
@@ -38,7 +38,7 @@ const FlatRoofRepairAirdrie = () => {
                 <h2 className="h2-heading">
                   We Can Help You Avoid Costly Repairs for Your Flat Roof
                 </h2>
-                <p>
+                <p className="justify-content">
                   It is generally considered that the best-case scenario for the
                   longevity of a flat roof is around 15-20 years. That is
                   best-case. When you factor in the harsh weather we all have to
@@ -46,7 +46,7 @@ const FlatRoofRepairAirdrie = () => {
                   So why not consider preventative maintenance for your flat
                   roof?
                 </p>
-                <p>
+                <p className="justify-content">
                   The professionals at Thermal Systems can quickly inspect your
                   flat roof, no matter what type of construction or age it is.
                   This is an unobtrusive event, and you won’t even know we were
@@ -60,7 +60,7 @@ const FlatRoofRepairAirdrie = () => {
                     </h2>
                   </Grid>
                   <Grid item xs={12} md={7} lg={7} sm={7}>
-                    <p style={{ marginTop: "0px" }}>
+                    <p style={{ marginTop: "0px" }}  className="justify-content">
                       Our team of roofing professionals are qualified and
                       experienced will all sorts of flat roof repairs. We can
                       inspect, repair and install various types of flat roofs
@@ -92,7 +92,7 @@ const FlatRoofRepairAirdrie = () => {
                   Repair Your Flat Roof or Replace It? The Bottom Line Speaks
                   for Itself
                 </h2>
-                <p>
+                <p className="justify-content">
                   Whether we recommend repairs or not, routine maintenance and
                   taking care of minor repairs of a flat roof can significantly
                   extent its life expectancy. Typically, small repairs and
@@ -100,7 +100,7 @@ const FlatRoofRepairAirdrie = () => {
                   years, with many property owners seeing up to 5 years of extra
                   longevity for their roofs.
                 </p>
-                <p>
+                <p className="justify-content">
                   Choosing to repair your flat roof as opposed to replacing it
                   can help to improve your bottom line substantially. That is
                   especially true when one considers that there are always big
@@ -114,7 +114,7 @@ const FlatRoofRepairAirdrie = () => {
                 <h2 className="h2-heading">
                   Commercial, Retail and Residential Flat Roof Repairs
                 </h2>
-                <p>
+                <p className="justify-content">
                   No matter the type of flat roof you have, if it needs repairs,
                   our team can handle it. Our professionals have extensive
                   experience providing flat roof repairs throughout Airdrie. In
@@ -127,7 +127,7 @@ const FlatRoofRepairAirdrie = () => {
                   Time Is of the Essence When It Come to Repairing Your Flat
                   Roof
                 </h2>
-                <p>
+                <p className="justify-content">
                   We are available for 24-hour emergency flat roof repair
                   services. Also, the sooner you let us fix your flat roof
                   leaks, the less your water damage will be.

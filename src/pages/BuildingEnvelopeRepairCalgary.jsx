@@ -24,7 +24,7 @@ const BuildingEnvelopeRepairCalgary = () => {
               <Container>
                 <Grid container spacing={2} sx={{marginTop:"20px"}}>
                   <Grid item xs={12} md={7} lg={7} sm={7}>
-                    <p style={{ marginTop: "0px" }}>
+                    <p style={{ marginTop: "0px" }} className="justify-content">
                       Your building envelope is not something your property tax
                       notice comes in. Your building envelope is everything that
                       makes up the structure your company “lives” in, including
@@ -33,7 +33,7 @@ const BuildingEnvelopeRepairCalgary = () => {
                       comes to building envelope repairs, Calgary's Thermal
                       Systems is no “flash in the pan”.
                     </p>
-                    <p>
+                    <p className="justify-content">
                       At Thermal Systems we are proud to have <a href="/about">over 30 years of
                       experience in the building envelope repair industry in
                       Calgary</a>. Our team of building envelope repair specialists
@@ -50,7 +50,7 @@ const BuildingEnvelopeRepairCalgary = () => {
                   Building Envelope Repairs 101 in Calgary: Water and Water
                   Vapor Control
                 </h2>
-                <p>
+                <p className="justify-content">
                   Water gives live but it can also create gigantic amounts of
                   damage. A building, whether it be a house or commercial
                   building is designed to keep water outside of it. Water is
@@ -65,21 +65,21 @@ const BuildingEnvelopeRepairCalgary = () => {
                     </h2>
                   </Grid>
                   <Grid item xs={12} md={7} lg={7} sm={7}>
-                    <p style={{ marginTop: "0px" }}>
+                    <p style={{ marginTop: "0px" }} className="justify-content">
                       The average person inhales and exhales approximately
                       11,000 liters of air per day. That means that your
                       building needs to “breathe” while also keeping out rain,
                       snow, and humidity. Ideally, your building also keeps out
                       allergens and humidity.
                     </p>
-                    <p>As the song goes; It’s a hard knock life.</p>
-                    <p>
+                    <p className="justify-content">As the song goes; It’s a hard knock life.</p>
+                    <p className="justify-content">
                       What we do at Thermal Systems in Calgary is to make
                       buildings healthier, more efficient, and better for your
                       bottom line. After all, healthy employees are happy
                       employees.
                     </p>
-                    <p>
+                    <p className="justify-content">
                       Building envelope repairs you think are minor could be
                       having a major effect on your heating or cooling bill, and
                       making your employees sick, literally. We can seal up your
@@ -95,14 +95,14 @@ const BuildingEnvelopeRepairCalgary = () => {
                 <h2 className="h2-heading">
                   Building Envelope Repairs 301: Thermal Envelope
                 </h2>
-                <p>
+                <p className="justify-content">
                   Energy costs are crazy no matter how efficient your building
                   is, but there is a way to minimize the craziness.The bottom
                   line is that the more energy efficient your building is, the
                   less money you send back to Ottawa. And as Martha says “It’s a
                   good thing.”
                 </p>
-                <p>
+                <p className="justify-content">
                   What we do at Thermal Systems in Calgary is to inspect and
                   diagnose our building. We spot places where you are throwing
                   money out the window and offer repairs that could save you
@@ -111,7 +111,7 @@ const BuildingEnvelopeRepairCalgary = () => {
                 <h2 className="h2-heading">
                   Your Building Envelope Is Your Home
                 </h2>
-                <p>
+                <p className="justify-content">
                   So, while we can’t do anything about your property taxes, we
                   can ensure that your property is protected with the best
                   building envelope possible. We offer solutions that protect

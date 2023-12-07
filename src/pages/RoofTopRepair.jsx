@@ -18,18 +18,18 @@ const RoofTopRepair = () => {
               <img alt="rooftoprepair" src={solatube} className="solatube" />
             </Grid>
             <Grid item xs={12} sm={6} md={5} sx={{ marginLeft: "25px" }}>
-              <p>
+              <p className="justify-content">
                 Thermal Systems Building Maintenance is a leader in the
                 commercial roof top repair and tenant improvement installation
                 industry. We pride ourselves in responding quickly to estimate
                 requests and executing the repairs or tenant improvements on the
                 client’s timeline.
               </p>
-              <p>
+              <p className="justify-content">
                 We work closely with Mechanical Contractors to support their
                 work when the building envelope is affected.
               </p>
-              <p>
+              <p className="justify-content">
                 Thermal Systems is an exclusive distributor for two high quality
                 daylighting products; Solatube and Kalwall both of which have
                 the ability to truly renew and energize a dark interior. Don’t
@@ -37,7 +37,7 @@ const RoofTopRepair = () => {
                 project, we will have our product experts come and see you to
                 explain the application of these two great products.
               </p>
-              <p>
+              <p className="justify-content">
                 Thermal Systems will execute on most any commercial rooftop
                 repair projects including:
               </p>
@@ -65,7 +65,7 @@ const RoofTopRepair = () => {
           </Grid>
 
           <div>
-            <p>
+            <p className="justify-content">
               Thermal Systems is a member of the Alberta Roofing Contractors
               Association.
             </p>

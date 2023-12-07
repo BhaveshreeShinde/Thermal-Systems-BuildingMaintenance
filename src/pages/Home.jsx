@@ -39,22 +39,22 @@ const Home = () => {
         <div className="decoration">
           <div className="decoration-inside"></div>
         </div>
-        <p>
+        <p className="justify-content">
           Our continued growth is testament to our pledge to provide you with
           products of the highest quality and unmatched customer service; we
           have built our reputation on this belief.
         </p>
-        <p>
+        <p className="justify-content">
           We take the time to listen to your needs and will advise you of the
           best possible options for your project and budget. We treat each
           customer with the utmost professionalism and respect.
         </p>
-        <p>
+        <p className="justify-content">
           We are confident that our abilities and that of our talented staff
           will make us stand out from the pack. We offer a wide variety of
           services tailored to your needs.
         </p>
-        <p>
+        <p className="justify-content">
           To be successful in business, it takes a winning combination of
           services, competitive pricing and dedication to customer service.
         </p>

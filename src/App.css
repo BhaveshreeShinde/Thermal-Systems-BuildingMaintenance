@@ -45,6 +45,10 @@
   ul{
     text-align: left;
   }
+
+  .justify-content{
+    text-align: justify;
+  }
 }
 
 /* footer style  */
