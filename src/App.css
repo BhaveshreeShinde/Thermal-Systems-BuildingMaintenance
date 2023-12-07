@@ -37,4 +37,14 @@
   }
 }
 
+@media all and (max-width : 991px) {
+  body{
+    text-align: center;
+  }
+
+  ul{
+    text-align: left;
+  }
+}
+
 /* footer style  */

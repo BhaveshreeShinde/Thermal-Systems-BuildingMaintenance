@@ -75,3 +75,30 @@ a {
 .canQual {
   width: 250px;
 }
+
+.companyLogo{
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width : 991px) {
+  .companyLogo{
+    display: block;
+    text-align: center;
+  }
+
+  .myLogo {
+    margin-left: 0px!important;
+  }
+
+  .boma {
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  .arca {
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+}
+
