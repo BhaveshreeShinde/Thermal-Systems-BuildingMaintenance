@@ -1,0 +1,88 @@
+import React from "react";
+import LandingPage from "../components/layouts/LandingPage";
+import { Box, Container} from "@mui/material";
+import "../assets/css/comman.css";
+import ContainerCom from "../components/layouts/Container";
+const CommercialWall = () => {
+  const additionalContent = (
+    <>
+      <Box className="main">
+        <Container>
+          <p>
+            Thermal Systems has long had a tremendous reputation for building
+            some of the most inspired visions within the Building Envelope
+            industry.
+          </p>
+
+          <p>
+            With over 30 years of Building Envelope Construction experience,
+            Thermal Systems is a true leader in the industry and is capable of
+            large and small wall system projects. Our capabilities include:
+          </p>
+          <ul>
+            <li>
+              Architectural Panel & Metal Cladding replacement for Renewal and
+              Restoration projects
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://www.kalwall.com/">Kalwall </a>Installation on
+              Renewal and Restoration projects
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://www.moeding.de/?lang=en">Moeding </a>Tile
+              Installation for Renewal and Restoration Projects
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://www.moeding.de/?lang=en">Ombrae </a>
+              Feature Walls to make your Renewal/Restoration Project Stand out
+              from the pack
+            </li>
+          </ul>
+          <ul>
+            <li>Substrate Removal and Replacement – Renewal Projects</li>
+          </ul>
+          <ul>
+            <li>
+              Aluminum Composite Material Panel Fabrication and Installation
+            </li>
+          </ul>
+          <ul>
+            <li>Phenolic Panel Supply and Install</li>
+          </ul>
+          <ul>
+            <li>
+              {" "}
+              <a href="https://www.endurocomposites.com/">Enduro </a>
+              System Installation.
+            </li>
+          </ul>
+
+          <p>
+            Thermal Systems will install and warranty all wall system products
+            that meet our Core Value of Quality.
+          </p>
+        </Container>
+      </Box>
+    </>
+  );
+  return (
+    <>
+      <LandingPage
+        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2018/01/Alucobond.jpg"
+        heading="COMMERCIAL WALL SYSTEMS"
+      />
+      <ContainerCom
+        title="Commercial Wall Systems"
+        additionalContent={additionalContent}
+      />
+    </>
+  );
+};
+
+export default CommercialWall;

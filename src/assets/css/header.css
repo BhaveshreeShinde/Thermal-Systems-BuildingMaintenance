@@ -1,0 +1,331 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle,
+[id^=drop] {
+  display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+/* nav:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background 2s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+} */
+
+#logo {
+  display: block;
+  padding: 27px 140px;
+  float: left;
+  color: #FFF;
+  cursor: pointer;
+}
+
+#logo img {
+  width: 250px;
+}
+
+nav {
+  height: 120px;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 14px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+nav ul li ul li:hover {
+  background: #d13139;
+}
+
+nav ul li ul li:hover a{
+    color:#fff
+}
+
+nav a:hover {
+  transition: .4s;
+}
+
+.main-menu:hover {
+  color: #d13139;
+  transition: .4s;
+}
+
+.main-menu:focus {
+    color: #d13139;
+  }
+
+nav ul ul {
+  min-width: 174px;
+  max-width: 170px;
+  width: 156px;
+  font-weight: 300;
+}
+
+nav ul ul li a {
+  letter-spacing: 0px !important;
+  padding: 12px 20px !important;
+  font-weight: 400;
+  color: #d13139;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul ul li {
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -39px;
+  left: 170px;
+}
+
+.menu-icon:after {
+  content: ' +';
+  position: relative;
+  left: 4px;
+}
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 991px) {
+.header-contact-detail{
+    display: none !important;
+}
+  .is-hidden-mobile {
+    display: none !important;
+  }
+
+
+  [id^=drop]:checked+ul {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    transition: all 2s ease-in-out;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  nav ul {
+    float: left;
+    text-align: center;
+    /* transform: translate(-0%);
+    top: -50%; */
+  }
+
+  #logo {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 8%;
+    float: none;
+    height: 23px;
+  }
+
+
+  #logo img {
+    width: 105px;
+    height: 22px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+  }
+
+  nav {
+    height: 40px;
+  }
+  
+
+  nav {
+    margin: 0;
+    z-index: 99;
+  }
+
+  /* Hide the navigation menu by default */
+  /* Also hide the  */
+  .toggle+a,
+  .menu {
+    display: none;
+  }
+
+  /* Stylinf the toggle lable */
+  .toggle {
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    background-color: #eeeeee;
+    color: #d13139;
+    text-decoration: none;
+    border: none;
+  }
+
+  .toggle-btn {
+    transform: translate(-50%, 25%);
+    left: 50%;
+    top: 0px;
+    position: absolute;
+    background-color: transparent !important;
+    color: #000;
+  }
+
+  .toggle:hover {
+    background-color: #d13139;
+    color: #eeeeee;
+  }
+
+  /* Display Dropdown when clicked on Parent Lable */
+  [id^=drop]:checked+ul {
+    display: block;
+  }
+
+  /* Change menu item's width to 100% */
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul ul .toggle,
+  nav ul ul a {
+    padding: 0 40px;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 12px 20px;
+    /* color: #fff; */
+    color: #d13139;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+  }
+ 
+  nav a:hover,
+  nav ul ul ul a:hover {
+    background-color: #d13139;
+    color: #eeeeee;
+  }
+
+  nav ul li ul li .toggle,
+  nav ul ul a,
+  nav ul ul ul a {
+    color: #FFF;
+    /* font-size: 0.8em; */
+    text-transform: uppercase;
+    background: transparent;
+  }
+
+  nav ul ul ul li .toggle:hover{
+    color: #FFF;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+  }
+  nav ul li ul li:hover{
+    background: #d13139;
+  }
+ 
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+    /* has to be the same number as the "line-height" of "nav a" */
+  }
+
+  /* Hide menus on hover */
+  nav ul ul li:hover>ul,
+  nav ul li:hover>ul {
+    display: none;
+  }
+
+  /* Fisrt Tier Dropdown */
+  nav ul ul li {
+    display: block;
+    width: 100%;
+    background-color: #eeeeee;
+  }
+
+  nav ul ul ul li {
+    position: static;
+    background: transparent !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+  
+    /* has to be the same number as the "width" of "nav ul ul li" */
+
+  }
+/* 
+  nav ul ul ul li .toggle{
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+  } */
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  .sub-menu-hover{
+    /* background-color: rgba(0, 0, 0, 0.7) !important; */
+    background-color:rgba(0, 0, 0, 0.1)
+  }
+
+}
+
+@media all and (min-width : 1024px) {
+  .is-hidden-desktop{
+    display: none !important;
+  }
+
+  nav ul ul li:hover .sub-menu-hover {
+    display: inherit;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+  }
+
+  nav ul li:hover .menu {
+    display: inherit;
+    background-color: #eeeeee;
+  }
+}

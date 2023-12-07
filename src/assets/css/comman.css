@@ -1,0 +1,77 @@
+.heading {
+  text-align: center;
+  color: #000;
+  line-height: 1.4em;
+  font-size: 2.5em;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.decoration {
+  display: flex;
+  justify-content: center;
+}
+.decoration-inside {
+  border-top: 1px solid #333333;
+  width: 100%;
+  max-width: 10%;
+}
+
+.textfieldgrid {
+  display: flex;
+  justify-content: center;
+}
+.textfield {
+  width: "600px";
+}
+a {
+  color: #d13139;
+  text-decoration: none;
+}
+.message {
+  text-align: center;
+}
+.main {
+  padding: 5px;
+}
+.myLogo {
+  margin-left: 25px;
+}
+.myHead {
+  align-content: center;
+  margin-top: 30px;
+}
+.textWidth {
+  width: 550px;
+}
+.myBtn {
+  background-color: #d13139;
+  width: 550px;
+}
+.BOMACalgaryLogo {
+  height: 60px;
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.ARCALogo {
+  height: 180px;
+  width: 180px;
+}
+.solatube {
+  width: 100%;
+}
+.arca {
+  height: 200px;
+  margin-left: 20px;
+}
+.boma {
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.safetyCon {
+  margin-bottom: 70px;
+}
+.canQual {
+  width: 250px;
+}

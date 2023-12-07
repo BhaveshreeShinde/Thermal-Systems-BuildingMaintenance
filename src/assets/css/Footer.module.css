@@ -1,0 +1,69 @@
+.main {
+  text-decoration: none;
+}
+.widgets {
+  background-color: #222;
+  clear: both;
+  font-size: 15px;
+  padding: 40px 0 16px;
+}
+.widgets .box {
+  height: "100%";
+  display: "flex";
+  flex-direction: "column";
+}
+.widgets .cardcontent {
+  flex-grow: 1;
+}
+.widgets .icon {
+  height: 17px;
+}
+
+.widgets .title {
+  border-color: #fff;
+  border-bottom: 1px solid #f5f5f5;
+  color: #d13139;
+  margin: 0 0 16px;
+  padding: 0 40px 18px;
+  text-shadow: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.widgets a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.widgets a:hover {
+  color: #d13139;
+}
+
+.widgets .subtitleOUR {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.widgets .learnbtn {
+  display: block;
+  border: 3px solid #fff;
+  border-bottom: 3px solid #fff !important;
+  padding: 8px;
+  text-align: center;
+}
+
+.main .sitefooter {
+  background-color: #d13139;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 0;
+  text-align: center;
+}
