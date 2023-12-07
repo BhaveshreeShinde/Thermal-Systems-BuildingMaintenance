@@ -24,7 +24,9 @@ const Home = () => {
               <br /> Roof Top Repair or Tenant Improvements | Commercial
               Re-Roofing | Commercial Wall Systems
             </p>
-            <Button variant="outlined" href="/about">ABOUT US</Button>
+            <Button variant="outlined" href="/about">
+              ABOUT US
+            </Button>
           </div>
         </div>
       </div>
@@ -58,27 +60,24 @@ const Home = () => {
         </p>
 
         <Container>
-              <div className="textfieldgrid">
-                <p className="footerCon">
-                  Thermal Systems has been providing residents of{" "}
-                  <a href="/TrustThermalSystems">Calgary </a>
-                  and{" "}
-                  <a href="/FlatRoofRepairAirdrie">
-                    Airdrie with flat roof
-                  </a>,{" "}
-                  <a href="/CommercialCladdingRepairCalgary">
-                    commercial clading{" "}
-                  </a>
-                  and{" "}
-                  <a href="/BuildingEnvelopeRepairCalgary">
-                    building envelope repair{" "}
-                  </a>
-                  for more than 30 <br /> years. We are proud of our
-                  longstanding history of quality workmanship and offer 24/7
-                  emergency repair services.
-                </p>
-              </div>
-            </Container>
+          <div className="textfieldgrid">
+            <p className="footerCon">
+              Thermal Systems has been providing residents of{" "}
+              <a href="/TrustThermalSystems">Calgary </a>
+              and <a href="/FlatRoofRepairAirdrie">
+                Airdrie with flat roof
+              </a>,{" "}
+              <a href="/CommercialCladdingRepairCalgary">commercial clading </a>
+              and{" "}
+              <a href="/BuildingEnvelopeRepairCalgary">
+                building envelope repair{" "}
+              </a>
+              for more than 30 <br /> years. We are proud of our longstanding
+              history of quality workmanship and offer 24/7 emergency repair
+              services.
+            </p>
+          </div>
+        </Container>
       </div>
     </>
   );

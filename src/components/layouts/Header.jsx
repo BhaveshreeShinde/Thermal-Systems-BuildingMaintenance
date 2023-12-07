@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
-import logo from "./logo-new-july2019-2.png";
+import logo from "./logo.svg";
 import "../../assets/css/header.css";
 
 const Header = () => {
@@ -46,8 +46,7 @@ const Header = () => {
             onClick={() => {
               setMenuToggle(false);
               closeMenuFunction();
-            }}
-          >
+            }}>
             <label htmlFor="drop">
               <CloseIcon />
             </label>
@@ -57,8 +56,7 @@ const Header = () => {
             className="toggle toggle-btn"
             onClick={() => {
               setMenuToggle(true);
-            }}
-          >
+            }}>
             <label htmlFor="drop">
               <DehazeIcon />
             </label>
@@ -70,12 +68,10 @@ const Header = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-          }}
-        >
+          }}>
           <a
             href="tel:+403-230-6739"
-            style={{ textDecoration: "none", color: "#666" }}
-          >
+            style={{ textDecoration: "none", color: "#666" }}>
             403-230-6739 (24 hr line)
           </a>
 
@@ -84,8 +80,7 @@ const Header = () => {
             style={{
               textDecoration: "none",
               color: "#666",
-            }}
-          >
+            }}>
             service@thermalsystems.ca
           </a>
         </div>
