@@ -36,7 +36,7 @@ const EmergencyService = () => {
             Association.
           </p>
         </Container>
-        <Container style={{ display: "flex" }}>
+        <Container className="companyLogo">
           <div>
             <img alt="emergencyservice" src={ARCALogo} className="ARCALogo" />
           </div>

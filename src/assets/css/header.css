@@ -166,15 +166,14 @@ nav ul ul ul li {
 
 
   #logo img {
-    width: 105px;
-    height: 22px;
+    width: 150px;
     display: block;
     float: left;
     margin-top: 10px;
   }
 
   nav {
-    height: 40px;
+    height: 60px;
   }
   
 
@@ -203,8 +202,8 @@ nav ul ul ul li {
 
   .toggle-btn {
     transform: translate(-50%, 25%);
-    left: 50%;
-    top: 0px;
+    left: 90%;
+    top: 10px;
     position: absolute;
     background-color: transparent !important;
     color: #000;
