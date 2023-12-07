@@ -24,7 +24,7 @@ const Home = () => {
               <br /> Roof Top Repair or Tenant Improvements | Commercial
               Re-Roofing | Commercial Wall Systems
             </p>
-            <Button variant="outlined" href="/about">
+            <Button className="homebutton" href="/about">
               ABOUT US
             </Button>
           </div>

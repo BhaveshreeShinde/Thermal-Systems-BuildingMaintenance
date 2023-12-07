@@ -14,7 +14,7 @@
   line-height: 2rem;
 }
 
-.centered-text-home .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+.centered-text-home .homebutton {
   margin-top: 40px!important;
   color: #ffffff!important;
   border: 1px solid #ffffff!important;
@@ -22,10 +22,10 @@
   font-size: 1.5rem!important;
 }
 
-.centered-text-home .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+.centered-text-home .homebutton:hover {
   cursor: pointer;
   background-color: #ffffff;
-  color: #000;
+  color: #000!important;
 }
 
 .landing-section {

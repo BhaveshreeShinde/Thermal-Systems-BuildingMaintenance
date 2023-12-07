@@ -72,7 +72,7 @@ const About = () => {
   return (
     <>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/IMG_0023_cropped.jpg"
+        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
         heading="ABOUT"
       />
       <ContainerCom
