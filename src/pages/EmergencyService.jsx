@@ -2,9 +2,11 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Container} from "@mui/material";
 import "../assets/css/comman.css";
-import ARCALogo from "../assets/images/ARCALogo.jpg";
-import BOMACalgaryLogo from "../assets/images/BOMACalgaryLogo.png";
+import ARCALogo from "../assets/images/ARCALogo.webp";
+import BOMACalgaryLogo from "../assets/images/BOMACalgaryLogo.webp";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import EmergencyLanding from "../assets/images/24-Hour-Emergency-Roof-Repair.webp"
 
 const EmergencyService = () => {
   const additionalContent = (
@@ -36,12 +38,14 @@ const EmergencyService = () => {
             Association.
           </p>
         </Container>
-        <Container className="companyLogo">
+        <Container>
+          <div className="companyLogo">
           <div>
             <img alt="emergencyservice" src={ARCALogo} className="ARCALogo" />
           </div>
           <div>
             <img alt="emergencyservice" src={BOMACalgaryLogo} className="BOMACalgaryLogo" />
+          </div>
           </div>
         </Container>
       </Box>
@@ -49,8 +53,16 @@ const EmergencyService = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>24 Hour Emergency Roof Repair | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems offers 24 Hours Emergency Services to respond to Roof Leaks, Architectural Panel, Exterior cladding and flashing issues Roof damage."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/24-hour-emergency-banner-1.jpg"
+        landingImg={EmergencyLanding}
         heading="24 HOUR EMERGENCY SERVICE"
       />
       <ContainerCom

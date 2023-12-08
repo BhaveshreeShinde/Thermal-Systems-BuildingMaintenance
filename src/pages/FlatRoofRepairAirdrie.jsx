@@ -2,11 +2,23 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Button, Container, Grid, Paper } from "@mui/material";
 import "../assets/css/comman.css";
+import { Helmet } from "react-helmet";
+import FlatRoofRepairAirdrieLanding from "../assets/images/The-Thermal-Systems-Maintenance-Story.webp"
+import FlatRoofAirdrie from "../assets/images/Flat-Roof-Repair-Airdrie.webp"
+
 const FlatRoofRepairAirdrie = () => {
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Flat Roof Repair Airdrie | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems offers 24/7 flat roof repair service in Airdrie. e have 30+ years of experience repairing Build Up Roofs (BUR)."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
+        landingImg={FlatRoofRepairAirdrieLanding}
         heading="FLAT ROOF REPAIR AIRDRIE"
       />
       <Container sx={{ padding: "30px", marginBottom: "30px" }}>
@@ -19,8 +31,8 @@ const FlatRoofRepairAirdrie = () => {
                   Airdrie
                 </p>
               </div>
-              <div class="decoration">
-                <div class="decoration-inside"></div>
+              <div className="decoration">
+                <div className="decoration-inside"></div>
               </div>
               <Container>
                 <div>
@@ -85,7 +97,7 @@ const FlatRoofRepairAirdrie = () => {
                   </Grid>
 
                   <Grid item xs={12} md={5} sm={12}>
-                    <img style={{width:"100%"}} alt="flatroofrepairairdrie" src="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2015/03/Testimonial-2-300x146.jpg" />
+                    <img style={{width:"100%"}} alt="flatroofrepairairdrie" src={FlatRoofAirdrie} />
                   </Grid>
                 </Grid>
                 <h2 className="h2-heading">

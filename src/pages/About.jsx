@@ -3,6 +3,8 @@ import LandingPage from "../components/layouts/LandingPage";
 import { Container } from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import AboutLanding from "../assets/images/The-Thermal-Systems-Maintenance-Story.webp"
 
 const About = () => {
   const additionalContent = (
@@ -16,8 +18,9 @@ const About = () => {
         </p>
 
         <p>
-          Thermal Systems(<a href="https://www.thermalsystems.ca/">www.thermalsystems.ca</a>
-          ) has long had a tremendous reputation for Building some of the most
+          Thermal Systems
+          <a href="https://www.thermalsystems.ca/"> (www.thermalsystems.ca) </a>
+          has long had a tremendous reputation for Building some of the most
           Inspired Visions within the Building Envelope Industry. Thermal
           Systems has begun a new journey, a journey to develop Inspired
           Maintenance Programs for the Building Envelope Industry. Thermal
@@ -26,9 +29,9 @@ const About = () => {
         <p>
           With over 30 years of Building Envelope Construction experience,
           Thermal Systems is a true leader in the Industry. Our acquisition of
-          Skyline Building Envelope Solutions (CGY) Inc. (
-          <a href="https://dec-tec.com/">www.dec-tec.com</a>
-          ) has further cemented our reputation as a Building Envelope Leader
+          Skyline Building Envelope Solutions (CGY) Inc.
+          <a href="https://dec-tec.com/"> (www.dec-tec.com) </a>
+          has further cemented our reputation as a Building Envelope Leader
           committed to looking after your needs from New Construction right
           through the entire lifecycle of your Building. Our willingness to want
           to stay involved through the entire Building Lifecycle is a true
@@ -71,8 +74,16 @@ const About = () => {
   );
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>The Thermal Systems Maintenance Story | Thermal Systems</title>
+        <meta
+          name="description"
+          content="With over 30 years of Building Envelope Construction experience, Thermal Systems is a true leader in the Industry."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
+        landingImg={AboutLanding}
         heading="ABOUT"
       />
       <ContainerCom

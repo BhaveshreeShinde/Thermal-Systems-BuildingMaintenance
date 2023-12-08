@@ -1,16 +1,17 @@
 import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
-// import { Box, Button, Container, Grid, Paper, TextField } from "@mui/material";
 import "../assets/css/comman.css";
-
-import logo from "../assets/images/avetta.png";
-import cor2 from "../assets/images/cor2.png";
-import CanQual from "../assets/images/CanQual.jpg";
-import Complyworks from "../assets/images/Complyworks.jpg";
-import ISN from "../assets/images/ISN.jpg";
-import POST from "../assets/images/POST.png";
+import logo from "../assets/images/avetta.webp";
+import cor2 from "../assets/images/cor2.webp";
+import CanQual from "../assets/images/CanQual.webp";
+import Complyworks from "../assets/images/Complyworks.webp";
+import ISN from "../assets/images/ISN.webp"
+import POST from "../assets/images/POST.webp";
 import ContainerCom from "../components/layouts/Container";
 import { Container, Grid } from "@mui/material";
+import { Helmet } from "react-helmet";
+import SafetyLanding from "../assets/images/Safety.webp"
+
 const Safety = () => {
   const additionalContent = (
     <>
@@ -57,8 +58,16 @@ const Safety = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Safety | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Safety is our first Core Value and a way of life. Thermal Systems Building Maintenance prides itself in being a leader in the Health Safety"
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/IMG_0023_cropped.jpg"
+        landingImg={SafetyLanding}
         heading="Safety"
       />
       <ContainerCom

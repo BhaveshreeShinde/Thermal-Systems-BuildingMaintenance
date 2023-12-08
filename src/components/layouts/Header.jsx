@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
-import logo from "./logo.svg";
+import logo from "./logo.webp";
 import "../../assets/css/header.css";
+import { EmailAddress } from "../../constant/ConstantData";
 
 const Header = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -76,12 +77,12 @@ const Header = () => {
           </a>
 
           <a
-            href="mailto:service@thermalsystems.ca"
+            href={`mailto:${EmailAddress}`}
             style={{
               textDecoration: "none",
               color: "#666",
             }}>
-            service@thermalsystems.ca
+            {EmailAddress}
           </a>
         </div>
         <ul id="main-menu" className="menu">

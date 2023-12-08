@@ -2,11 +2,23 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Button, Container, Grid, Paper } from "@mui/material";
 import "../assets/css/comman.css";
+import { Helmet } from "react-helmet";
+import TrustThermalSystemsLanding from "../assets/images/The-Thermal-Systems-Maintenance-Story.webp"
+import CommercialRoofingMaintenance from "../assets/images/Commercial-Roofing-Maintenance-Repairs.webp"
+
 const TrustThermalSystems = () => {
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Flat Roof Repair Calgary | Thermal Systems</title>
+        <meta
+          name="description"
+          content="With over 30 years of experience, people know to call Thermal Systems when they need flat roof repair in Calgary."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
+        landingImg={TrustThermalSystemsLanding}
         heading="FLAT ROOF REPAIR CALGARY"
       />
       <Container sx={{ padding: "30px", marginBottom: "30px" }}>
@@ -18,8 +30,8 @@ const TrustThermalSystems = () => {
                   Trust Thermal Systems for Your Flat Roof Repairs in Calgary
                 </p>
               </div>
-              <div class="decoration">
-                <div class="decoration-inside"></div>
+              <div className="decoration">
+                <div className="decoration-inside"></div>
               </div>
               <Container>
                 <div>
@@ -54,7 +66,7 @@ const TrustThermalSystems = () => {
                 </p>
                 <Grid container spacing={2} alignItems="end">
                   <Grid item xs={12} md={4} sm={12}>
-                    <img style={{width:"100%"}} alt="trustthermalsystems" src="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/commercial-roofing-300x170.jpg" />
+                    <img style={{width:"100%"}} alt="trustthermalsystems" src={CommercialRoofingMaintenance} />
                   </Grid>
                   <Grid item xs={12} md={8} lg={8} sm={12}>
                     <h2 className="h2-heading">

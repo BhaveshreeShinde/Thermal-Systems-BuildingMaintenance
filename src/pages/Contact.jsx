@@ -4,6 +4,9 @@ import { Button, Container, Grid, TextField } from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
 import axios from "axios";
+import { Helmet } from "react-helmet";
+import ContactLanding from "../assets/images/Contact.webp"
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -194,8 +197,16 @@ const Contact = () => {
   );
   return (
     <>
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact | Thermal Systems</title>
+        <meta
+          name="description"
+          content="First Name (required) Last Name (required) Email (required) Company (required) Message Thermal Systems 261185 Wagon Wheel Way Rocky View, AB T4A 0E2"
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2018/02/Contact-1d.jpg"
+        landingImg={ContactLanding}
         heading="contact"
         title="The Thermal Systems Maintenance Story"
       />

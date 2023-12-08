@@ -2,11 +2,23 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Button, Container, Grid, Paper } from "@mui/material";
 import "../assets/css/comman.css";
+import { Helmet } from "react-helmet";
+import CommercialCladdingCalgaryLanding from "../assets/images/The-Thermal-Systems-Maintenance-Story.webp"
+import CladdingRepairCalgary from "../assets/images/Commercial-Cladding-Repair-Calgary.webp"
+
 const CommercialCladdingRepairCalgary = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Façade Repairs | Commercial Cladding Repair Calgary | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Serving Calgary for several decades, Thermal Systems offers a Commercial Cladding Repairs that keep your business looking its best."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
+        landingImg={CommercialCladdingCalgaryLanding}
         heading="COMMERCIAL CLADDING REPAIR CALGARY"
       />
       <Container sx={{ padding: "30px", marginBottom: "30px" }}>
@@ -19,8 +31,8 @@ const CommercialCladdingRepairCalgary = () => {
                   Calgary
                 </p>
               </div>
-              <div class="decoration">
-                <div class="decoration-inside"></div>
+              <div className="decoration">
+                <div className="decoration-inside"></div>
               </div>
               <Container>
                 <p  className="justify-content">
@@ -34,7 +46,7 @@ const CommercialCladdingRepairCalgary = () => {
 
                 <Grid container spacing={2} sx={{ alignItems: "center" }}>
                   <Grid item xs={12} md={4} sm={12}>
-                    <img style={{width:"100%"}} src="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2017/08/About-Us-1c-300x136.jpg" alt="commercialcladdingrepaircalgary"/>
+                    <img style={{width:"100%"}} src={CladdingRepairCalgary} alt="commercialcladdingrepaircalgary"/>
                   </Grid>
                   <Grid item xs={12} md={8} lg={8} sm={8}>
                     <h2 className="h2-heading">

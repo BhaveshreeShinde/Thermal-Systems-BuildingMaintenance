@@ -2,8 +2,10 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Container, Grid } from "@mui/material";
 import "../assets/css/comman.css";
-import ARCALogo from "../assets/images/ARCALogo.jpg";
+import ARCALogo from "../assets/images/ARCALogo.webp";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import CommercialReRoofingLanding from "../assets/images/Commercial-Re-Roofing-Services.webp"
 
 const CommercialReRoofing = () => {
   const additionalContent = (
@@ -95,8 +97,16 @@ const CommercialReRoofing = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Commercial Re-Roofing Services | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems is a leading roof replacement contractor able to service a wide variety of roofs, including standing seam, metal and asphalt roofs."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2017/08/Homepage-2a.jpg"
+        landingImg={CommercialReRoofingLanding}
         heading="COMMERCIAL RE-ROOFING"
       />
       <ContainerCom

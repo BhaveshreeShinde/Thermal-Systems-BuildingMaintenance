@@ -1,22 +1,3 @@
-// import React from "react";
-// import "./../../assets/css/LandingPage.css";
-
-// const LandingPage = (props) => {
-//   return (
-//     <div className="landing-container">
-//       <div className="image-container">
-//         <img src={props.landingImg} alt="landingimage" />
-//         <div className="overlay"></div>
-//         <div className="centered-text">
-//           <h1>{props.heading}</h1>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default LandingPage;
-
 import React from "react";
 import "./../../assets/css/LandingPage.css";
 import { Grid } from "@mui/material";

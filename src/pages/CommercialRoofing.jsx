@@ -3,6 +3,10 @@ import LandingPage from "../components/layouts/LandingPage";
 import { Box, Container} from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import CommercialRoofingLanding from "../assets/images/Commercial-Roofing-Maintenance-Repairs.webp"
+
+
 const CommercialRoofing = () => {
   const additionalContent = (
     <>
@@ -71,10 +75,17 @@ const CommercialRoofing = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Commercial Roofing Maintenance & Repairs | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Safety is our first Core Value and a way of life. Thermal Systems Building Maintenance prides itself in being a leader in the Health Safety."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/Improveemebnts-Tenant-Mechanical-Upgrades-banner-1.jpg"
-        heading="COMMERCIAL ROOFING,
-        MAINTENANCE & REPAIRS"
+        landingImg={CommercialRoofingLanding}
+        heading="COMMERCIAL ROOFING, MAINTENANCE & REPAIRS"
       />
       <ContainerCom
         title="Commercial Roofing, Maintenance & Repairs "

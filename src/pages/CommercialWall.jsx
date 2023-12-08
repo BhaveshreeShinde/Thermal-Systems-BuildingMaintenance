@@ -3,6 +3,9 @@ import LandingPage from "../components/layouts/LandingPage";
 import { Box, Container} from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import CommercialWallSystemsLanding from "../assets/images/Commercial-Wall-Systems.webp"
+
 const CommercialWall = () => {
   const additionalContent = (
     <>
@@ -73,8 +76,16 @@ const CommercialWall = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Commercial Wall Systems | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems is a true leader in the industry and is equipped to handle all manner of commercial wall system projects, great & small."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2018/01/Alucobond.jpg"
+        landingImg={CommercialWallSystemsLanding}
         heading="COMMERCIAL WALL SYSTEMS"
       />
       <ContainerCom

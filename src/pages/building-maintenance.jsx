@@ -1,8 +1,11 @@
 import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
-import { Container} from "@mui/material";
+import { Container } from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import BuildingMaintenanceLanding from "../assets/images/Building-Maintenance-Repairs.webp"
+
 const BuildingMaintenance = () => {
   const additionalContent = (
     <>
@@ -26,34 +29,34 @@ const BuildingMaintenance = () => {
         </p>
 
         <h4>Maintenance & Repairs Services:</h4>
-        <div >
-          <ul >
+        <div>
+          <ul>
             <li>Emergency Cladding and Panel Repair, Replace or Removal</li>
           </ul>
-          <ul >
+          <ul>
             <li>
               Architectural Panel & Metal Cladding Repair and Replacement – All
               Size Projects
             </li>
           </ul>
-          <ul >
+          <ul>
             <li>Architectural Panel and Cladding Cleaning</li>
           </ul>
-          <ul >
+          <ul>
             <li>
               Insulation Repair or Replacement – Mold, R Value Concerns, Thermal
               Bridging
             </li>
           </ul>
-          <ul >
+          <ul>
             <li>
               Air/Vapor Membrane – Seam Lap Deficiencies & Penetration Issues
             </li>
           </ul>
-          <ul >
+          <ul>
             <li>Wall System Cleaning – Pressure Wash</li>
           </ul>
-          <ul >
+          <ul>
             <li>Caulking and Sealing</li>
           </ul>
         </div>
@@ -62,8 +65,16 @@ const BuildingMaintenance = () => {
   );
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Building Maintenance & Repairs | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems is here to provide you with with quality building maintenance and repair services from initial inspection to project completion."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/Building-maint-1.jpg"
+        landingImg={BuildingMaintenanceLanding}
         heading="Building Maintenance"
       />
       <ContainerCom

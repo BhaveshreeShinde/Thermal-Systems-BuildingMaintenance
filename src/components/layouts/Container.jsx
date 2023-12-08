@@ -11,8 +11,8 @@ const ContainerCom = (props) => {
             <div className="heading">
               <p>{props.title}</p>
             </div>
-            <div class="decoration">
-              <div class="decoration-inside"></div>
+            <div className="decoration">
+              <div className="decoration-inside"></div>
             </div>
             {props.additionalContent}
             <Container>
@@ -25,11 +25,11 @@ const ContainerCom = (props) => {
                     Airdrie with flat roof
                   </a>,{" "}
                   <a href="/CommercialCladdingRepairCalgary">
-                    commercial clading{" "}
+                    Commercial clading{" "}
                   </a>
                   and{" "}
                   <a href="/BuildingEnvelopeRepairCalgary">
-                    building envelope repair{" "}
+                    Building envelope repair{" "}
                   </a>
                   for more than 30 <br /> years. We are proud of our
                   longstanding history of quality workmanship and offer 24/7

@@ -3,6 +3,8 @@ import React from "react";
 import styles from "../../assets/css/Footer.module.css";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
+import { EmailAddress } from "../../constant/ConstantData";
+
 const Footer = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const Footer = () => {
                     <Typography
                       gutterBottom
                       variant="h5"
-                      component="h4"
+                      component="h2"
                       className={styles.title}>
                       LEARN MORE
                     </Typography>
@@ -71,8 +73,8 @@ const Footer = () => {
                       <LocalPhoneIcon className={styles.icon} /> 403-230-6739
                       (24 hr line) <br />
                       <EmailIcon className={styles.icon} />
-                      <a href="mailto:service@thermalsystems.ca">
-                        service@thermalsystems.ca
+                      <a href={`mailto:${EmailAddress}`}>
+                        {EmailAddress}
                       </a>
                     </Typography>
                   </CardContent>

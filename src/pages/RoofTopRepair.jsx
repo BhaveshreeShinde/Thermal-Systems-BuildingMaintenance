@@ -2,11 +2,13 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Container, Grid} from "@mui/material";
 import "../assets/css/comman.css";
-import solatube from "../assets/images/solatube.jpg";
-import ARCALogo from "../assets/images/ARCALogo.jpg";
-import BOMACalgaryLogo from "../assets/images/BOMACalgaryLogo.png";
-import abconstructionassoc from "../assets/images/abconstructionassoc.gif";
+import solatube from "../assets/images/solatube.webp";
+import ARCALogo from "../assets/images/ARCALogo.webp";
+import BOMACalgaryLogo from "../assets/images/BOMACalgaryLogo.webp";
+import AbconstructionassocLogo from "../assets/images/AbconstructionassocLogo.webp";
 import ContainerCom from "../components/layouts/Container";
+import { Helmet } from "react-helmet";
+import RoofTopRepairLanding from "../assets/images/Tenant-Improvements-Mechanical-Upgrades.webp"
 
 const RoofTopRepair = () => {
   const additionalContent = (
@@ -79,7 +81,7 @@ const RoofTopRepair = () => {
               <img alt="rooftoprepair" className="boma" src={BOMACalgaryLogo} />
             </Grid>       
             <Grid item xs={12} sm={12} md={3}>
-              <img alt="rooftoprepair" className="arca" src={abconstructionassoc} />
+              <img alt="rooftoprepair" className="arca" src={AbconstructionassocLogo} />
             </Grid>
           </Grid>
         </Container>
@@ -88,8 +90,16 @@ const RoofTopRepair = () => {
   );
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Tenant Improvements And Mechanical Upgrades | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Thermal Systems Building Maintenance is a leader in the commercial roof top repair and tenant improvement installation industry."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/Tenant-Improve-3-Venting.jpg"
+        landingImg={RoofTopRepairLanding}
         heading="TENANT IMPROVEMENTS &
         MECHANICAL UPGRADES"
       />

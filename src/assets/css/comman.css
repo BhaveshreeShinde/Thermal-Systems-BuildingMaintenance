@@ -78,7 +78,6 @@ a {
 
 .companyLogo{
   display: flex;
-  justify-content: center;
 }
 
 @media all and (max-width : 991px) {

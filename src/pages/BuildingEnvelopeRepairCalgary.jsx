@@ -2,11 +2,24 @@ import React from "react";
 import LandingPage from "../components/layouts/LandingPage";
 import { Box, Button, Container, Grid, Paper } from "@mui/material";
 import "../assets/css/comman.css";
+import { Helmet } from "react-helmet";
+import BuildingRepairCalgaryLanding from "../assets/images/The-Thermal-Systems-Maintenance-Story.webp"
+import BuildingRepairCalgary from "../assets/images/Building-Envelope-Repair-Calgary.webp"
+import TenantImprovementsMechanicalUpgrades from "../assets/images/Tenant-Improvements-Mechanical-Upgrades.webp"
+
 const BuildingEnvelopeRepairCalgary = () => {
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Building Envelope Repair Calgary | Thermal Systems</title>
+        <meta
+          name="description"
+          content="Calgary’s Thermal Systems offers repairs to your roof, walls, and basement. 30 years of experience and can fix roofs, walls and facades."
+        />
+      </Helmet>
       <LandingPage
-        landingImg="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/20190711_094421_No-Skyline.jpg"
+        landingImg={BuildingRepairCalgaryLanding}
         heading="BUILDING ENVELOPE REPAIR IN CALGARY"
       />
       <Container sx={{ padding: "30px", marginBottom: "30px" }}>
@@ -18,8 +31,8 @@ const BuildingEnvelopeRepairCalgary = () => {
                   Calgary’s Thermal Systems Is Your Building Envelope Doctor
                 </p>
               </div>
-              <div class="decoration">
-                <div class="decoration-inside"></div>
+              <div className="decoration">
+                <div className="decoration-inside"></div>
               </div>
               <Container>
                 <Grid container spacing={2} sx={{marginTop:"20px"}}>
@@ -43,7 +56,7 @@ const BuildingEnvelopeRepairCalgary = () => {
                   </Grid>
 
                   <Grid item xs={12} md={5} sm={12}>
-                    <img style={{width:"100%"}} alt="buildingenveloperepaircalgary" src="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2017/06/safety-1-300x146.jpg" />
+                    <img style={{width:"100%"}} alt="buildingenveloperepaircalgary" src={BuildingRepairCalgary} />
                   </Grid>
                 </Grid>
                 <h2 className="h2-heading">
@@ -89,7 +102,7 @@ const BuildingEnvelopeRepairCalgary = () => {
                   </Grid>
 
                   <Grid item xs={12} md={5} sm={12}>
-                    <img style={{width:"100%"}} alt="buildingenveloperepaircalgary" src="https://www.tsbuildingmaintenance.ca/wp-content/uploads/2019/07/Tenant-Improve-3-Venting-300x169.jpg" />
+                    <img style={{width:"100%"}} alt="buildingenveloperepaircalgary" src={TenantImprovementsMechanicalUpgrades} />
                   </Grid>
                 </Grid>
                 <h2 className="h2-heading">
