@@ -4,7 +4,7 @@ import DehazeIcon from "@mui/icons-material/Dehaze";
 import CloseIcon from "@mui/icons-material/Close";
 import logo from "./logo.webp";
 import "../../assets/css/header.css";
-import { EmailAddress } from "../../constant/ConstantData";
+import { ContactNumber, EmailAddress } from "../../constant/ConstantData";
 
 const Header = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -71,9 +71,9 @@ const Header = () => {
             justifyContent: "center",
           }}>
           <a
-            href="tel:+403-230-6739"
+            href={`tel:+${ContactNumber}`}
             style={{ textDecoration: "none", color: "#666" }}>
-            403-230-6739 (24 hr line)
+            {ContactNumber} (24 hr line)
           </a>
 
           <a

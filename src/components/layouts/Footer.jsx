@@ -3,7 +3,7 @@ import React from "react";
 import styles from "../../assets/css/Footer.module.css";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
-import { EmailAddress } from "../../constant/ConstantData";
+import { ContactNumber, EmailAddress } from "../../constant/ConstantData";
 
 const Footer = () => {
   return (
@@ -70,7 +70,7 @@ const Footer = () => {
                       261185 Wagon Wheel Way <br />
                       Rocky View, AB <br />
                       T4A 0E2 <br />
-                      <LocalPhoneIcon className={styles.icon} /> 403-230-6739
+                      <LocalPhoneIcon className={styles.icon} /> {ContactNumber}
                       (24 hr line) <br />
                       <EmailIcon className={styles.icon} />
                       <a href={`mailto:${EmailAddress}`}>
