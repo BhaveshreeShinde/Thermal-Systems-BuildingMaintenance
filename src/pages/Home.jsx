@@ -2,14 +2,16 @@ import React from "react";
 import "../assets/css/home.css";
 import { Button, Container } from "@mui/material";
 import { Helmet } from "react-helmet";
-import HomeLanding from "../assets/images/Roof-Building-Envelope-Maintenance- Repair.webp"
+import HomeLanding from "../assets/images/Roof-Building-Envelope-Maintenance- Repair.webp";
 
 const Home = () => {
   return (
     <>
-    <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
-        <title>Roof & Building Envelope Maintenance & Repair | Thermal Systems</title>
+        <title>
+          Roof & Building Envelope Maintenance & Repair | Thermal Systems
+        </title>
         <meta
           name="description"
           content="Thermal Systems has a long history of providing quality roof and building envelope installation and maintenance services in Calgary & Airdrie."
@@ -17,10 +19,7 @@ const Home = () => {
       </Helmet>
       <div className="landing-container">
         <div className="image-container">
-          <img
-            src={HomeLanding}
-            alt="landingimage"
-          />
+          <img src={HomeLanding} alt="landingimage" />
           <div className="overlay"></div>
           <div className="centered-text-home">
             <h1>

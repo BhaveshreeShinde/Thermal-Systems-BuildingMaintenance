@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./App.css";
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Footer from "./components/layouts/Footer";
 import Home from "./pages/Home";

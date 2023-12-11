@@ -23,8 +23,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { hydrate, render } from "react-dom";
+import ReactGA from "react-ga4";
 
 
+ReactGA.initialize("G-LWGJTXBC9P");
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
 const MyApp = (
   <BrowserRouter>
   <App />
