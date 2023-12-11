@@ -22,12 +22,21 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { hydrate, render } from "react-dom";
+
+
+const MyApp = (
+  <BrowserRouter>
+  <App />
+</BrowserRouter>
+);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
+if (root.hasChildNodes()) {
+  hydrate(MyApp, root);
+} else {
+  render(MyApp, root);
+}
 
 reportWebVitals();
