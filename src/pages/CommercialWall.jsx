@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/layouts/LandingPage";
+import LandingPageSmall from "../components/layouts/LandingPageSmall";
 import { Box, Container} from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
@@ -84,7 +84,7 @@ const CommercialWall = () => {
           content="Thermal Systems is a true leader in the industry and is equipped to handle all manner of commercial wall system projects, great & small."
         />
       </Helmet>
-      <LandingPage
+      <LandingPageSmall
         landingImg={CommercialWallSystemsLanding}
         heading="COMMERCIAL WALL SYSTEMS"
       />

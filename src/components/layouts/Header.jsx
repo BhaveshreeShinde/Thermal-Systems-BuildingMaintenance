@@ -11,6 +11,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   const navigateToHome = () => {
+    console.log("logo clicked.......................")
     navigate("/");
   };
 
@@ -38,8 +39,10 @@ const Header = () => {
   return (
     <div className="App bg-image">
       <nav>
-        <div id="logo">
-          <img src={logo} onClick={navigateToHome} alt="logo" />
+        <div id="logo"
+        onClick={navigateToHome}
+        >
+          <img src={logo}  alt="logo" />
         </div>
         {menuToggle ? (
           <div

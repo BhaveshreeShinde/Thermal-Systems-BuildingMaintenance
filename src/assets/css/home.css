@@ -1,3 +1,12 @@
+.home-section{
+  height:820px!important;
+}
+
+.home-section img{
+  height:auto!important;
+}
+
+
 .centered-text-home {
   position: absolute;
   top: 50%;
@@ -20,6 +29,7 @@
   border: 1px solid #ffffff!important;
   padding: 10px 30px!important;
   font-size: 1.5rem!important;
+  border-radius: 0px!important;
 }
 
 .centered-text-home .homebutton:hover {
@@ -63,6 +73,14 @@
 }
 
 @media all and (max-width : 991px) {
+  .home-section{
+    height:800px!important;
+  }
+  
+  .home-section img{
+    height:100%!important;
+  }
+
   .centered-text-home {
    font-size: 1rem;
    padding-top: 50px;

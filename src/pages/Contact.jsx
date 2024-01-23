@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LandingPage from "../components/layouts/LandingPage";
+import LandingPageSmall from "../components/layouts/LandingPageSmall";
 import { Button, Container, Grid, TextField } from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
@@ -205,7 +205,7 @@ const Contact = () => {
           content="First Name (required) Last Name (required) Email (required) Company (required) Message Thermal Systems 261185 Wagon Wheel Way Rocky View, AB T4A 0E2"
         />
       </Helmet>
-      <LandingPage
+      <LandingPageSmall
         landingImg={ContactLanding}
         heading="contact"
         title="The Thermal Systems Maintenance Story"

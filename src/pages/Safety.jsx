@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/layouts/LandingPage";
+import LandingPageSmall from "../components/layouts/LandingPageSmall";
 import "../assets/css/comman.css";
 import logo from "../assets/images/avetta.webp";
 import cor2 from "../assets/images/cor2.webp";
@@ -66,7 +66,7 @@ const Safety = () => {
           content="Safety is our first Core Value and a way of life. Thermal Systems Building Maintenance prides itself in being a leader in the Health Safety"
         />
       </Helmet>
-      <LandingPage
+      <LandingPageSmall
         landingImg={SafetyLanding}
         heading="Safety"
       />

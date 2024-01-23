@@ -10,7 +10,7 @@
 }
 
 .image-container img {
-  height: 650px;
+  height: 720px;
   width: 100%;
 }
 
@@ -47,5 +47,9 @@
 @media all and (max-width : 991px) {
   .centered-text {
    font-size: 30px;
+  }
+
+  .image-container img {
+    height: 650px;
   }
 }
