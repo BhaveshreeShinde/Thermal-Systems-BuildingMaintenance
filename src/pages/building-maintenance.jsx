@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/layouts/LandingPage";
+import LandingPageSmall from "../components/layouts/LandingPageSmall";
 import { Container } from "@mui/material";
 import "../assets/css/comman.css";
 import ContainerCom from "../components/layouts/Container";
@@ -73,7 +73,7 @@ const BuildingMaintenance = () => {
           content="Thermal Systems is here to provide you with with quality building maintenance and repair services from initial inspection to project completion."
         />
       </Helmet>
-      <LandingPage
+      <LandingPageSmall
         landingImg={BuildingMaintenanceLanding}
         heading="Building Maintenance"
       />

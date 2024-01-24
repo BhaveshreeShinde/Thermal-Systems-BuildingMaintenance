@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/layouts/LandingPage";
+import LandingPageSmall from "../components/layouts/LandingPageSmall";
 import { Box, Container, Grid } from "@mui/material";
 import "../assets/css/comman.css";
 import ARCALogo from "../assets/images/ARCALogo.webp";
@@ -105,7 +105,7 @@ const CommercialReRoofing = () => {
           content="Thermal Systems is a leading roof replacement contractor able to service a wide variety of roofs, including standing seam, metal and asphalt roofs."
         />
       </Helmet>
-      <LandingPage
+      <LandingPageSmall
         landingImg={CommercialReRoofingLanding}
         heading="COMMERCIAL RE-ROOFING"
       />

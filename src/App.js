@@ -18,10 +18,12 @@ import FlatRoofRepairAirdrie from "./pages/FlatRoofRepairAirdrie";
 import CommercialCladdingRepairCalgary from "./pages/CommercialCladdingRepairCalgary";
 import BuildingEnvelopeRepairCalgary from "./pages/BuildingEnvelopeRepairCalgary";
 import Header from "./components/layouts/Header";
+import ScrollToTop from "./components/layouts/ScrollToTop";
 
 function App() {
   return (
     <div>
+      <ScrollToTop/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>

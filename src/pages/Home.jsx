@@ -18,8 +18,8 @@ const Home = () => {
         />
       </Helmet>
       <div className="landing-container">
-        <div className="image-container">
-          <img src={HomeLanding} alt="landingimage" />
+        <div className="image-container home-section">
+          <img src={HomeLanding} alt="landingimage"/>
           <div className="overlay"></div>
           <div className="centered-text-home">
             <h1>
